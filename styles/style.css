@@ -1,0 +1,45 @@
+body{
+    font-family: Verdana;
+}
+li{
+    font-size: 22px;
+}
+img.cover{
+    height: 200px;
+    border-style: double;
+    border-radius: 10px;
+}
+div.bookContainer{
+    padding: 10px;
+    width: 250px;
+    height: 320px;
+    border: 1px solid brown;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    background-color: rgb(255, 250, 230);
+}
+span.title{
+    font-size: 18px;
+    display: block;
+    margin: 5px 0;
+    font-weight: bold;
+}
+span.author{
+    position: absolute;
+    text-align: left;
+    bottom: 25px;
+    left: 10px;
+    display: block;
+    font-size: 14px;
+}
+span.isbn{
+    position: absolute;
+    text-align: right;
+    bottom: 5px;
+    right: 5px;
+    font-size: 11px;
+    font-weight: bold;
+}
